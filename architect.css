@@ -112,6 +112,29 @@ main > section{
 #quick-list{
     font-weight: 500;
 }
+/* Features section related styles */
+.features{
+    gap: 140px;
+}
+#feature-section-title{
+    border-left: 5px solid #ff900e;
+    padding-left: 20px;
+}
+.feature-card{
+    padding: 30px;
+    border-radius: 8px;
+    margin-bottom: 20px;
+    box-shadow: 0 4px 30px 0 #rgba(0, 0, 0, 0.06)
+    
+
+}
+.feature-card .feature-title{
+    font-weight: 600;
+    font-size: 1.25rem;
+    margin-top: 0px;
+    margin-bottom: 0px;
+    
+}
 
 /* Some fact related styels */
 .facts-container{
