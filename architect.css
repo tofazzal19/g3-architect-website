@@ -133,9 +133,22 @@ main > section{
     font-size: 1.25rem;
     margin-top: 0px;
     margin-bottom: 0px;
-    
-}
 
+}
+#experience-badge{
+    padding: 45px 42px;
+    font-size: 1.5rem;
+    font-weight: 500;
+    margin-top: -100px;
+    margin-left: -100px;
+}
+#experience-year{
+       font-size: 4rem;
+       font-weight: 700;
+}
+.featured-architect img{
+    width: 100%;
+}
 /* Some fact related styels */
 .facts-container{
     display: grid;
@@ -174,7 +187,29 @@ text-align: center;
 .sponsor-companies{
     display: grid;
     grid-template-columns: repeat(5, 1fr);
+
 }
+
+/* Footer Style */
+
+.footer{
+    
+    margin: 130px auto 210px auto;         /* Top and bottom margin + center horizontally */
+    background-color: rgba(255, 244, 231, 1);
+    height: 50px;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+
+    padding: 0 20px;
+    border-radius: 6px;
+
+    max-width: 85%;                    
+                            
+}
+
 
 /* Discoloring ICons */
    .sponsor-companies{
@@ -187,6 +222,7 @@ text-align: center;
 
        .navbar, 
        .nav-links,
+       .features,
        .teams{
         flex-direction: column;
        }
@@ -211,13 +247,19 @@ text-align: center;
             margin: 0 auto;
             margin-left: 20px;
         }
+        #experience-badge{
+            margin-top: 20px;
+            margin-left: 20px;
+        }
 
-
+       }
+       .footer{
+        width: 80%;
        }
 
        /* medium devices */
        @media screen and (min-width: 576px) and (max-width: 990px)  {
-                    .teams{
+                    .teams, .features{
                         flex-direction: column;
                     }
                  .our-features{
@@ -228,6 +270,13 @@ text-align: center;
             grid-template-columns: repeat(2, 1fr);
             gap: 50px;
         }
+        #experience-badge{
+            margin-top: 20px;
+            margin-left: 20px;
+        }
+        .footer{
+        width: 90%;
+       }
        }
 
 /* @media screen and (max-width: 576px) 
