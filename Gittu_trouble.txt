@@ -1,0 +1,17 @@
+
+#######Not get push###Error: 
+PS C:\HTML_Projects\g3-architect-website> git remote add origin https://github.com/tofazzal19
+error: remote origin already exists.
+PS C:\HTML_Projects\g3-architect-website> git commit -m"g3-architech"
+On branch main
+Your branch is up to date with 'origin/main'.
+
+nothing to commit, working tree clean
+PS C:\HTML_Projects\g3-architect-website> git push
+remote: Permission to tofazzal707/g3-architect-website.git denied to tofazzal19.
+fatal: unable to access 'https://github.com/tofazzal707/g3-architect-website.git/': The requested URL returned error: 403
+PS C:\HTML_Projects\g3-archite
+#################################Solutions###############
+git remote remove origin
+git remote add origin https://github.com/tofazzal19/g3-architect-website.git
+git push -u origin main
